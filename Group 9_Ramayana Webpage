@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* CSS styles for tabs */
+.tabcontent {
+  display: none;
+}
+
+.tablinks {
+  background-color: #d9d5d5;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.tablinks:hover {
+  background-color: #ffed4b;
+}
+
+.tablinks.active {
+  background-color: #ffed4b;
+}
+</style>
+</head>
+<body>
+<header>
+	<h1>Keeping The Art of Wayang Kulit Alive</h1>
+</header>
+<main>
+
+
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Wayang-Kulit-About')">About</button>
+      <button class="tablinks" onclick="openTab(event, 'Ramayana-Storyboard')">Storyboard</button>
+      <button class="tablinks" onclick="openTab(event, 'Wayang-Kulit-Shadow-Puppet-Play')">The Shadow-Puppet-Play</button>
+    </div>
+
+<!-- Tab content -->
+<div id="Wayang-Kulit-About" class="tabcontent">
+
+	<div>	
+		<p>The art of Wayang Kulit is a traditional form of puppet-shadow play originating from Java and Bali in Indonesia. It is a living art form that reflects the history, values, beliefs, and creativity of the Indonesian people. However, it is facing challenges and threats in the modern world, such as the declining interest of the younger generation and the dwindling number of skilled dalangs and puppet makers.</p>
+		<img src="C:\Users\Reign\Downloads\386873171_274927768775066_4321880382055602366_n.png" alt="wayang kulit" style="width:100%">
+	</div>
+
+	<div>
+		<p>To preserve Wayang Kulit, we must raise awareness and appreciation for this art form among the public, especially the youth. We must also support and promote the dalangs and puppet makers who dedicate their lives to this art form. By doing so, we can keep Wayang Kulit alive and relevant for present and future generations.</p>
+	</div>
+
+	<div>
+		<p>One way to achieve these goals is by creating and performing our own Wayang Kulit shadow puppet play. We, a group of students passionate about Wayang Kulit, have practiced hard and are ready to showcase our work to the world. Our puppet show is based on the classic piece, "The Story of The Ramayana."</p>
+	</div>
+
+</div>
+
+
+
+<div id="Ramayana-Storyboard" class="tabcontent">
+  <h3>Ramayana Storyboard</h3>
+  <p>Our storyboard shows a display of the sequence of events or happenings conveyed on our take on "The Story of The Ramayana." It is our means of showing our audience the beauty of our puppet show through the means of a visual representation to give them a clearer view on what can be expected of it. </p>
+  <a href="C:\Users\Reign\Downloads\Group 9_The Story of The Ramayana_Storyboard.png">Click here to view the picture</a>
+<img src="C:\Users\Reign\Downloads\Group 9_The Story of The Ramayana_Storyboard.png" alt="Storyboard" style="width: 100%">
+</div>
+
+
+
+<div id="Wayang-Kulit-Shadow-Puppet-Play" class="tabcontent">
+  <h3>Wayang Kulit Shadow Puppet Play</h3>
+  <p>We invite you to watch our Wayang Kulit shadow puppet play and join us in celebrating this amazing art form.</p>
+  <video width="100%" height="400" controls>
+  <source src="C:\Users\Reign\Downloads\10000000_6610914009023882_516343434852255075_n.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+
+</main>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  
+  // Remove active class from all tab links
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  
+  // Show the selected tab content
+  document.getElementById(tabName).style.display = "block";
+  
+  // Add active class to the clicked tab link
+  evt.currentTarget.className += " active";
+}
+
+// Set the default active tab
+document.getElementsByClassName("tablinks")[0].click();
+</script>
+</body>
+</html>
+
+</style>
+
+</main>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #c43c3c;
+}
+FAC6AC
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+<h1></h1>
+<p></p>
+
+</body>
+</html>
